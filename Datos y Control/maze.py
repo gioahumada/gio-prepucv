@@ -25,7 +25,7 @@ while True:
 
     #ask user where he wants to go 
 
-    # direction = input('¿Donde te quieres mover? [WASD]: ')
+    # diredtion = input('¿Donde te quieres mover? [WASD]: ')
     direction = readchar.readchar()
 
     if direction == 'w':
@@ -43,4 +43,4 @@ while True:
     elif direction == 'q':
         break
 
-    os.system('cls')
+    os.system('clear')

@@ -9,4 +9,3 @@ if adivinanza > 10:
     print('Fuiste de rosca')
 if adivinanza < 1:
     print('Un poco bajo')
-
